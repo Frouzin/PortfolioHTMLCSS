@@ -1,0 +1,32 @@
+#foto{
+    width: 300px;
+    height: 300px;
+}
+header {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+nav {
+    grid-column: 2;
+}
+nav ul {    
+    text-align: right;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 1200px;
+    justify-content: center;
+    padding: 20px;
+}
